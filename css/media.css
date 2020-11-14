@@ -1,0 +1,205 @@
+/*
+Project Name: Rhythm
+Author:M O
+File: Media CSS
+*/
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  /* //CSS */
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* //CSS */
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* //CSS */
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* //CSS */
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 767px) {
+
+  /*
+    ##Global
+  */
+  .find-us, .latest-news, .template, .choose-us, .latest-work, .latest-work, .work, .Services, .about-studio {
+    padding: 70px 0;
+  }
+
+  .testmonials .back-ground p, .choose-us p, .latest-work p, .work p, .digital p, .about-studio p, .latest-news p {
+    font-size: 12px;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    visibility: hidden;
+  }
+
+  /*
+    ##Main Carousel
+  */
+  .main-carousel .carousel-control-next, .main-carousel .carousel-control-prev {
+    width: 5%;
+    height: 80px;
+    top: 40%;
+  }
+
+  .main-carousel .next-icon, .main-carousel .prev-icon {
+    color: white;
+    font-size: 20px;
+  }
+
+  /*
+    ##Digital
+  */
+  .digital {
+    text-align: center;
+  }
+
+  /*
+    ##Testmonials
+  */
+  .testmonials .back-ground {
+    padding-top: 40px;
+  }
+
+  /*
+    ##Latest Work
+  */
+  .latest-news h5, .about-studio h5 {
+    float: none;
+    display: block;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+
+  .latest-news h2, .about-studio h2 {
+    margin-bottom: 10px;
+  }
+
+  /*
+    ##Find Us
+  */
+  .find-us h2 {
+    margin-bottom: 40px;
+  }
+
+  /*
+    ##New Project
+  */
+  .new-project {
+    padding: 35px 0;
+  }
+
+  /*
+    ##Footer
+  */
+  footer {
+    padding-top: 70px;
+  }
+
+  footer ul {
+    margin-bottom: 60px;
+  }
+}
+
+/*
+  ##special Cases
+*/
+@media (min-width: 320px) and (max-width: 571px) {
+
+  /*
+    ##Main Carousel
+  */
+  .main-carousel .carousel-control-next, .main-carousel .carousel-control-prev {
+    width: 5%;
+    height: 80px;
+    top: 30%;
+  }
+
+  .main-carousel .next-icon, .main-carousel .prev-icon {
+    color: white;
+    font-size: 20px;
+  }
+
+  /*
+    ##Services
+  */
+  .Services .fix {
+    width: 33.33333%;
+    display: inline-block;
+  }
+
+  .Services .fix-2, .find-us .fix-2 {
+    margin-left: 80px;
+  }
+
+  /*
+    ##Find Us
+  */
+  .find-us .fix {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .find-us .fix-2 {
+    width: 50%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+
+/*
+ ##special Cases For Nav Bar Mobile Menu
+*/
+@media (min-width: 320px) and (max-width: 991px) {
+  .fixed-top {
+    position: fixed;
+    top: 0px;
+    /* right: 0; */
+    left: -500px;
+    z-index: 1030;
+  }
+
+  .move {
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.79) !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: rgb(255, 255, 255);
+  }
+
+  .navbar-brand {
+    margin-left: 500px;
+  }
+
+  .fixing {
+    margin-left: 0;
+  }
+}

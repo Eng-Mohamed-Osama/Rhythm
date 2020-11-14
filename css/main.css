@@ -1,0 +1,1247 @@
+/*
+Project Name: Rhythm
+Author:M O
+File: Main CSS
+*/
+/* Global
+--------------------------------------------------------------------------------------------------------------- */
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 43%;
+  bottom: 0;
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 6%;
+  color: black;
+  text-align: center;
+  opacity: 1;
+  background: #fff;
+}
+
+.next-icon {
+  color: black;
+  font-size: 16px;
+}
+
+.prev-icon {
+  color: black;
+  font-size: 16px;
+}
+
+/* Nav Bar
+--------------------------------------------------------------------------------------------------------------- */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(255, 255, 255, 1);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .7);
+  font-size: 11px;
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+.navbar img {
+  width: 55%;
+  transition: all .35s ease;
+}
+
+.dark-bg {
+  background-color: black !important;
+  transition: all .35s ease;
+  padding: 10px 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.dark-bg img {
+  width: 50%;
+  transition: all .35s ease;
+}
+
+.none-scrolling {
+  background-color: transparent !important;
+  transition: all .35s ease;
+  padding: 15px 16px;
+}
+
+/* Main Carousel
+--------------------------------------------------------------------------------------------------------------- */
+.main-carousel .carousel-control-next, .main-carousel .carousel-control-prev {
+  position: absolute;
+  top: 43%;
+  bottom: 0;
+  height: 120px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 2%;
+  color: black;
+  text-align: center;
+  background-color: #82828263;
+}
+
+.main-carousel .next-icon, .main-carousel .prev-icon {
+  color: white;
+  font-size: 24px;
+}
+
+/* About Studio
+--------------------------------------------------------------------------------------------------------------- */
+.about-studio {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  overflow: hidden;
+}
+
+.about-studio h2 {
+  color: black;
+  letter-spacing: 10px;
+  font-family: Dosis, arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
+.about-studio h5 {
+  float: right;
+  display: inline-block;
+  font-size: 11px;
+  margin-top: 27px;
+  color: #999;
+  transition: all .27s ease;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: Dosis, arial, sans-serif;
+  margin-bottom: 70px;
+}
+
+.about-studio h5:hover {
+  color: black;
+}
+
+.about-studio .row {
+  clear: both;
+}
+
+.about-studio p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.8;
+}
+
+.about-studio .progress-bar {
+  color: black;
+  text-align: left;
+  overflow: visible;
+  font-size: 11px;
+  background: black;
+  letter-spacing: 1px;
+}
+
+.about-studio .prog-bg {
+  color: black;
+  height: 2px;
+  text-align: left;
+  position: relative;
+  overflow: visible;
+}
+
+.about-studio .prog-bg p {
+  display: block;
+  position: absolute;
+  top: 5px;
+  color: black;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.about-studio .progress-bar.first span {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 34px;
+  color: black;
+  letter-spacing: 0;
+  top: 5px;
+}
+
+.about-studio .progress-bar.sec span {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 70px;
+  color: black;
+  letter-spacing: 0;
+  top: 5px;
+}
+
+.about-studio .progress-bar.third span {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 52px;
+  color: black;
+  letter-spacing: 0;
+  top: 5px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('../imgs/menu_plus_cross_add_addition-512.png');
+  transition: all .7s ease;
+}
+
+.navbar-light .navbar-toggler-icon:hover {
+  transform: rotate(360deg);
+}
+
+/* Services
+--------------------------------------------------------------------------------------------------------------- */
+.Services {
+  padding: 140px 0;
+}
+
+.Services .cont {
+  opacity: .35;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.Services .cont:hover {
+  opacity: 1;
+}
+
+.Services .cont i {
+  display: block;
+}
+
+.Services .active {
+  opacity: 1;
+}
+
+.Services h2 {
+  color: black;
+  letter-spacing: 10px;
+  font-family: Dosis, arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 100px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.Services h5 {
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 27px;
+  color: black;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: Dosis, arial, sans-serif;
+  margin-bottom: 70px;
+}
+
+.Services .disables-view {
+  display: none;
+}
+
+.Services .content-inf h6 {
+  font-family: Dosis, arial, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #777;
+  text-align: left;
+  line-height: 40px;
+  word-spacing: 5px;
+}
+
+.Services .content-inf span {
+  text-align: left;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #9a9898;
+  letter-spacing: 3px;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.Services .content-inf span:before {
+  content: "";
+  height: 1px;
+  width: 8px;
+  display: inline-block;
+  background: #777;
+  margin-right: 5px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.Services .content-inf p {
+  text-align: left;
+  color: #777;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.Services .service-h5 {
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin-top: 27px;
+  color: #999;
+  transition: all .27s ease;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: Dosis, arial, sans-serif;
+  margin-bottom: 70px;
+}
+
+.Services .service-h5:hover {
+  color: black;
+}
+
+/* Digital Services
+--------------------------------------------------------------------------------------------------------------- */
+.digital {
+  background: url(../imgs/section-bg-2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.digital h2 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Dosis, arial, sans-serif;
+}
+
+.digital p {
+  margin-bottom: 35px;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, .7);
+  margin-top: 20px;
+}
+
+.digital .btn-1 {
+  font-size: 12px;
+  width: 160px;
+  padding: 9px 0;
+  letter-spacing: 3px;
+  transition: all .27s ease;
+  margin-bottom: 40px;
+}
+
+.digital .btn-1:hover {
+  background: white;
+}
+
+.digital .brand {
+  margin-top: -40px;
+}
+
+.digital .text {
+  padding: 100px 0;
+}
+
+/* Work Progress
+--------------------------------------------------------------------------------------------------------------- */
+.work {
+  padding: 140px 0;
+}
+
+.work h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: gray;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.work p {
+  margin-bottom: 35px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.work i {
+  display: block;
+}
+
+.work h5 {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 27px;
+  color: black;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: Dosis, arial, sans-serif;
+  margin-bottom: 60px;
+}
+
+/* Latest Work
+--------------------------------------------------------------------------------------------------------------- */
+.latest-work {
+  padding: 140px 0;
+}
+
+.latest-work h2 {
+  margin-bottom: 80px;
+  font-size: 18px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.latest-work p {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.latest-work .col-sm-6 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.latest-work .col-sm-6 img {
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.latest-work .col-sm-6:hover img {
+  transform: scale(1.1);
+}
+
+.latest-work .cont {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  color: black;
+  opacity: 0;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.latest-work .cont:hover {
+  opacity: .85;
+}
+
+.latest-work .cont .span-1 {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  font-size: 12px;
+  margin-bottom: 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.latest-work .cont .span-2 {
+  display: block;
+  position: absolute;
+  top: 88%;
+  left: 40%;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.latest-work .portfolio {
+  background: #111;
+  padding: 70px 0;
+}
+
+.latest-work .portfolio h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Dosis, arial, sans-serif;
+}
+
+.portfolio .btn-1 {
+  font-size: 11px;
+  width: 240px;
+  padding: 9px 0;
+  letter-spacing: 3px;
+  transition: all .27s ease;
+  color: #111;
+  background: rgba(255, 255, 255, .8);
+}
+
+.portfolio .btn-1:hover {
+  background: rgba(255, 255, 255, .95);
+}
+
+/* Choose Us
+--------------------------------------------------------------------------------------------------------------- */
+.choose-us {
+  padding-bottom: 140px;
+}
+
+.choose-us i {
+  display: block;
+}
+
+.choose-us h2 {
+  margin-bottom: 80px;
+  font-size: 18px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.choose-us p {
+  margin-bottom: 80px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.choose-us h5 {
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 27px;
+  color: black;
+  letter-spacing: 5px;
+  font-family: Dosis, arial, sans-serif;
+}
+
+/* Testmonials
+--------------------------------------------------------------------------------------------------------------- */
+.testmonials {
+  background: url(../imgs/section-bg-3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.testmonials .back-ground {
+  background: rgba(0, 0, 0, 0.9);
+  padding-top: 140px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.testmonials .back-ground .carousel-item>div {
+  width: 35px;
+  height: 35px;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.testmonials .back-ground .quotes i {
+  display: block;
+  color: white;
+  line-height: 30px;
+}
+
+.testmonials .back-ground h2 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  color: white;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.testmonials .back-ground p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: rgb(219, 222, 215, .9);
+  font-family: Dosis, arial, sans-serif;
+}
+
+.testmonials .back-ground .carousel-item span:before {
+  content: "";
+  height: 1px;
+  width: 12px;
+  display: inline-block;
+  background: #777;
+  margin-right: 15px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.testmonials .back-ground .carousel-item span {
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+.testmonials .back-ground li {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.testmonials .carousel-control-next, .testmonials .carousel-control-prev {
+  position: absolute;
+  top: 43%;
+  bottom: 0;
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 3%;
+  color: black;
+  text-align: center;
+  opacity: 1;
+  background: #fff;
+}
+
+.testmonials .next-icon, .testmonials .prev-icon {
+  color: black;
+  font-size: 16px;
+}
+
+.testmonials .back-ground ol .active {
+  height: 8px;
+  width: 8px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.testmonials .back-ground .carousel-indicators {
+  position: absolute;
+  top: 130%;
+}
+
+/* Best Seller
+--------------------------------------------------------------------------------------------------------------- */
+.best-seller {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.best-seller h2 {
+  margin-bottom: 80px;
+  font-size: 18px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.best-seller h5 {
+  font-size: 18px;
+  margin-top: 27px;
+  color: #777;
+  letter-spacing: 4px;
+  font-family: Dosis, arial, sans-serif;
+  transition: all .27s ease;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.best-seller h5:hover {
+  color: black;
+}
+
+.best-seller span {
+  display: block;
+  font-family: Dosis, arial, sans-serif;
+  color: gray;
+  font-weight: 900;
+}
+
+.best-seller .btn-2 {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  transition: all .27s ease;
+}
+
+.best-seller .btn-2:hover {
+  background: #d1d1d1;
+}
+
+.best-seller .sales {
+  position: relative;
+}
+
+.best-seller .sales .sale {
+  color: white;
+  background-color: red;
+  width: 50px;
+  padding-left: 4px;
+  padding-top: 2px;
+  height: 21px;
+  border-radius: 3px;
+  z-index: 2;
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-family: Dosis, arial, sans-serif;
+}
+
+/* Template 1 & 2
+--------------------------------------------------------------------------------------------------------------- */
+.template {
+  padding: 140px 0;
+}
+
+.template h2 {
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.template p {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.template .btn-3 {
+  font-size: 11px;
+  color: black;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  background: white;
+  transition: all .27s ease;
+  border-radius: 1px;
+  letter-spacing: 3px;
+  padding: 10px 35px;
+}
+
+.template .btn-3:hover {
+  color: white;
+  border: 2px solid black;
+  background: black;
+}
+
+.template li {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.template ol .active {
+  height: 8px;
+  width: 8px;
+  border: 1px solid white;
+  background: rgba(225, 225, 225, 0);
+  border-radius: 50%;
+}
+
+/* Features
+--------------------------------------------------------------------------------------------------------------- */
+.features {
+  padding: 100px 0;
+  background: url(../imgs/section-bg-17.jpg) no-repeat center center scroll;
+  font-family: Dosis, arial, sans-serif;
+}
+
+.features .main-cont {
+  color: white;
+  margin: 0px 20px;
+}
+
+.features .main-cont h3 {
+  color: #ffffffba;
+  font-size: 20px;
+}
+
+.features .main-cont i {
+  color: white;
+  display: block;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.features .main-cont p {
+  color: #868282;
+  font-size: 14px;
+}
+
+element.style {}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  background: #ffffffc4;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0 !important;
+  margin-left: 10px;
+  transition: all .27s ease;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot:hover {
+  background: #ffffff;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active {
+  background: transparent;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  border: 1px solid white;
+  transform: scale(1.3333);
+  transition: all .27s ease;
+}
+
+button:focus {
+  outline: 0 -webkit-focus-ring-color;
+}
+
+/* Latest News
+--------------------------------------------------------------------------------------------------------------- */
+.latest-news {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.latest-news h2 {
+  color: black;
+  letter-spacing: 10px;
+  font-family: Dosis, arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
+.latest-news h5 {
+  float: right;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 27px;
+  color: #999;
+  transition: all .27s ease;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: Dosis, arial, sans-serif;
+  margin-bottom: 70px;
+}
+
+.latest-news h5:hover {
+  color: black;
+}
+
+.latest-news .row {
+  clear: both;
+}
+
+.latest-news p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+.latest-news h6 {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  color: #777;
+  letter-spacing: 4px;
+  font-family: Dosis, arial, sans-serif;
+  transition: all .27s ease;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.latest-news h6:hover {
+  color: black;
+}
+
+.latest-news .btn-4 {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  transition: all .27s ease;
+  border-radius: 1px;
+}
+
+.latest-news .btn-4:hover {
+  background: #d1d1d1;
+}
+
+.latest-news span {
+  font-size: 10px;
+  margin-top: 0px;
+  color: #aaa;
+  letter-spacing: 3px;
+  font-family: Dosis, arial, sans-serif;
+  transition: all .27s ease;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.latest-news span:hover {
+  color: black;
+}
+
+.latest-news span::after {
+  content: "";
+  height: 8px;
+  width: 1px;
+  color: #aaa;
+  background: #aaa;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.latest-news time {
+  font-size: 10px;
+  margin-top: 0px;
+  color: #aaa;
+  letter-spacing: 3px;
+  font-family: Dosis, arial, sans-serif;
+  transition: all .27s ease;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+/* Subscribe Form
+--------------------------------------------------------------------------------------------------------------- */
+.subscribe {
+  padding: 70px 0;
+  background: #fff;
+}
+
+.subscribe h2 {
+  color: black;
+  letter-spacing: 5px;
+  font-family: Dosis, arial, sans-serif;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.subscribe span {
+  font-size: 11px;
+  word-spacing: 1px;
+  margin-top: 20px;
+  color: #aaa;
+  display: block;
+}
+
+.subscribe span i {
+  margin-right: 2px;
+}
+
+.subscribe .btn-5 {
+  font-size: 11px;
+  color: white;
+  margin-top: 15px;
+  border: 2px solid transparent;
+  background: rgba(34, 34, 34, .9);
+  transition: all .27s ease;
+  border-radius: 2px;
+  letter-spacing: 3px;
+  padding: 10px 35px;
+  vertical-align: middle;
+}
+
+.subscribe .btn-5:hover {
+  background: rgba(34, 34, 34, .8);
+}
+
+.subscribe input::placeholder {
+  color: #9e9b9b;
+  transition: all .27s ease;
+  font-size: 13px;
+}
+
+.subscribe input::placeholder:hover {
+  color: black;
+}
+
+.subscribe input {
+  width: 300px;
+  transition: all .27s ease;
+  border: 1px solid #dfdddd;
+  color: black;
+  border-radius: 1px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1px;
+  margin-top: 15px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.subscribe input:hover {
+  border: 1px solid #9e9b9b;
+}
+
+.subscribe input:focus {
+  width: 300px;
+  border: 1px solid black;
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Find Us
+--------------------------------------------------------------------------------------------------------------- */
+.find-us {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.find-us h2 {
+  color: black;
+  letter-spacing: 10px;
+  margin-bottom: 90px;
+  font-family: Dosis, arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.find-us h5 {
+  font-size: 12px;
+  margin-bottom: -1px;
+  color: #777;
+  letter-spacing: 4px;
+  font-family: Dosis, arial, sans-serif;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.find-us span {
+  font-size: 14px;
+  color: black;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.find-us .cont {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+  margin-top: 25px;
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.find-us .cont::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #111;
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+
+.find-us .cont i {
+  color: white;
+  position: relative;
+  font-size: 15px;
+}
+
+/* New Project
+--------------------------------------------------------------------------------------------------------------- */
+.new-project {
+  padding: 70px 0;
+  background: black;
+}
+
+.new-project h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Dosis, arial, sans-serif;
+}
+
+.new-project .btn-6 {
+  font-size: 12px;
+  width: 160px;
+  padding: 9px 0;
+  border-radius: 2px;
+  letter-spacing: 3px;
+  transition: all .27s ease;
+  color: #111;
+  background: rgba(255, 255, 255, .8);
+}
+
+.new-project .btn-6:hover {
+  background: rgba(255, 255, 255, .95);
+}
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+footer {
+  padding: 140px 0 60px 0;
+  background: #fff;
+  position: relative;
+}
+
+footer img {
+  margin-bottom: 30px;
+  height: 36px;
+  width: 78px;
+}
+
+footer ul {
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+footer ul li {
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+
+footer ul .layer-1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  border: 1px solid black;
+  z-index: 1;
+  transition: all .3 ease;
+}
+
+footer ul .layer-2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  border: 1px solid black;
+  z-index: 1;
+  transition: all .3 ease;
+}
+
+footer .invert-color {
+  color: #fff;
+}
+
+footer a {
+  position: absolute;
+  right: 25px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, .2);
+  transition: all .27s ease;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer ul li i {
+  z-index: 2;
+  color: black;
+  position: relative;
+}
+
+footer h5 {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 5px;
+  font-family: Dosis, arial, sans-serif;
+}
+
+footer .footer-div {
+  font-size: 11px;
+  color: #aaa;
+  display: block;
+}
